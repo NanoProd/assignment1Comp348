@@ -27,7 +27,7 @@ public class Rectangle implements Shape {
     }
 
     public String toString() {
-        return ShapeName().getSimpleName()+ " with sides of  "+ width + " and "+ length + ".";
+        return ShapeName()+ " with sides of  "+ width + " and "+ length + ".";
     }
 
     @Override

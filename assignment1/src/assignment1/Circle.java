@@ -19,7 +19,7 @@ public class Circle implements Shape{
     }
 
     public String toString(){
-        return ShapeName().getSimpleName().toUpperCase() + " with radius " + radius + ".";
+        return ShapeName().toUpperCase() + " with radius " + radius + ".";
     }
 
     @Override
